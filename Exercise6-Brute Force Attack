@@ -1,0 +1,38 @@
+# Make a password
+
+Correct_password = "12345"
+
+#while loop to repeatedly ask the user for the password until the correct one is entered.
+while True:
+    user_input = input("Enter the password:")
+
+    if user_input == Correct_password:
+        print("Correct Password! You may Enter now.")
+
+    else:
+        print("Wrong Password. Please try again.")
+
+
+#Optional Requirements:
+
+Correct_password1 = "12345"
+
+#Maximum of 5 password attempts
+maximum_attempts = 5
+
+attempts = 0
+
+while attempts < maximum_attempts:
+    user_input = input("Enter the password: ")
+
+    if user_input == "Correct Password":
+        print("Correct Password! You may Enter now.")
+
+    else:
+        attempts += 1
+        remaining_attempts = maximum_attempts - attempts
+
+        if remaining_attempts > 0:
+            print(f"Incorrect password. You have {remaining_attempts} attempt(s) left.")
+        else:
+            print("Incorrect password. The authorities have been alerted.")
