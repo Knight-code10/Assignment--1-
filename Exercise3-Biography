@@ -1,0 +1,10 @@
+#Store your information in a dictionary
+info ={
+    "Name": "Stephin",
+    "Age": 18,
+    "Hometown": "Ajman"
+}
+
+#Print the information
+
+print(info["Name"],info["Age"],info["Hometown"], sep="\n")
