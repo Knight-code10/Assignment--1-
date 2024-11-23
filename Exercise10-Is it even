@@ -1,0 +1,15 @@
+def even_or_odd(number):
+    if number % 2 == 0:
+        return "The number is even"
+    else:
+        return "The number is odd"
+    
+def main():
+    number = int(input("Enter number: "))
+
+    message = even_or_odd(number)
+
+    print(message)
+
+if __name__ == "__main__":
+    main()
