@@ -1,0 +1,121 @@
+quiz1 = input("What is the capital of France?: ")
+
+if quiz1 == "Paris":
+        print("Your are correct.")
+elif quiz1 == "paris":
+    print("Your are correct")
+elif quiz1 == "PaRis":
+    print("Your are correct")
+else:
+    print("Your are wrong.")
+
+quiz2 = input("What is the capital of United Kingdom?:")
+
+if quiz2 == "London":
+     print("Well done")
+elif quiz2 == "london":
+     print("Well done")
+elif quiz2 == "LonDon":
+     print("Well done")
+else:
+     print("Too Bad")
+
+quiz3 = input("What is the capital of Spain?:")
+
+if quiz3 == "Madrid":
+     print("Great Job")
+elif quiz3 == "madrid":
+     print("Great Job")
+elif quiz3 == "MADRID":
+     print("Great Job")
+elif quiz3 == "MadRid":
+     print("Great Job")
+else:
+     print("Maybe Nextime")
+
+quiz4 = input("What is the capital of Italy?:")
+
+if quiz4 == "Rome":
+     print("Incredible")
+elif quiz4 == "ROME":
+     print("Incredible")
+elif quiz4 == "rome":
+     print("Incredible")
+else:
+     print("Wrong")
+
+quiz5 = input("What is the capital of Finland?:")
+
+if quiz5 == "Helsinki":
+     print("korjata")
+elif quiz5 == "HELSINKI":
+     print("korjata")
+elif quiz5 == "helsinki":
+     print("korjata")
+elif quiz5 == "HelSinki":
+     print("korjata")
+else:
+     print("Maybe Nextime")
+
+quiz6 = input("What is the capital of Sweden?:")
+
+if quiz6 == "Stockholm":
+     print("rätta")
+elif quiz6 == "STOCKHOLM":
+     print("rätta")
+elif quiz6 == "stockholm":
+     print("rätta")
+elif quiz6 == "StockHolm":
+     print("rätta")
+else:
+     print("Bep Bep Wrong")
+
+quiz7 = input("What is the capital of Lithuania?:")
+
+if quiz7 == "Vilnius":
+     print("Unstopable")
+elif quiz7 == "VILNIUS":
+     print("UNSTOPABLE")
+elif quiz7 == "vilnius":
+     print("unstopable")
+else:
+     print("Giving up?")
+
+quiz8 = input("What is the capital of Latvia?:")
+
+if quiz8 == "Riga":
+     print("Well done")
+elif quiz8 == "RIGA":
+     print("WELL DONE")
+elif quiz8 == "riga":
+     print("well done")
+else:
+     print("Wrong, No worrys")
+
+quiz9 = input("What is the capital of Estonia?:")
+
+if quiz9 == "Tallinn":
+     print("Great Job")
+elif quiz9 == "TALLINN":
+     print("GREAT JOB")
+elif quiz9 == "tallinn":
+     print("great job")
+else:
+     print("incorrect")
+
+quiz10 = input("What is the capital of Romania?:")
+
+if quiz10 == "Bucharest":
+     print("corecta")
+elif quiz10 == "BUCHAREST":
+     print("corecta")
+elif quiz10 == "bucharest":
+     print("corecta")
+elif quiz10 == "BuchaRest":
+     print("corecta")
+else:
+     print("Lost, Maybe Nextime")
+
+
+
+print("Thank you for Playing")
