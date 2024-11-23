@@ -1,0 +1,13 @@
+names=["Jake","Zac","Lan","Ron","Sam","Dave"]
+
+Search_name = input("Enter the name you want to search:")
+
+if Search_name in names:
+    print(f"{Search_name} is found in this list!")
+else:
+    print(f"{Search_name} is not Avaiable")
+
+
+
+
+#What about Waldo?
