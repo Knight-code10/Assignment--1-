@@ -1,13 +1,8 @@
-names=["Jake","Zac","Lan","Ron","Sam","Dave"]
+names=["Jake","Zac","Lan","Ron","Sam","Dave"] #type the names
 
-Search_name = input("Enter the name you want to search:")
+Search_name = input("Enter the name you want to search:") #Write the input you want to add
 
 if Search_name in names:
-    print(f"{Search_name} is found in this list!")
+    print(f"{Search_name} is found in this list!") #If the name is found the output is found
 else:
-    print(f"{Search_name} is not Avaiable")
-
-
-
-
-#What about Waldo?
+    print(f"{Search_name} is not Avaiable") #Otherwise Not found
